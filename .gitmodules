@@ -75,7 +75,7 @@
     path = .config/nvim/pack/bundle/opt/vim-pathogen
     url = https://github.com/tpope/vim-pathogen.git
 [submodule "vim-repeat"]
-    ignore = untrackead
+    ignore = untracked
     path = .config/nvim/pack/bundle/opt/vim-repeat
     url = https://github.com/tpope/vim-repeat.git
 [submodule "vim-signature"]
