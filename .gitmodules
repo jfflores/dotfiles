@@ -89,8 +89,8 @@
     path = .config/nvim/pack/bundle/opt/vim-surround
     url = https://github.com/tpope/vim-surround.git
 [submodule "zsh-autosuggestions"]
-    path = .zsh/zsh-autosuggestions
+    path = .oh-my-zsh/custom/plugins/zsh-autosuggestions
     url = https://github.com/zsh-users/zsh-autosuggestions
 [submodule "zsh-syntax-highlighting"]
-    path = .zsh/zsh-syntax-highlighting
+    path = .oh-my-zsh/custom/plugins/zsh-syntax-highlighting
     url = https://github.com/zsh-users/zsh-syntax-highlightinag.git
