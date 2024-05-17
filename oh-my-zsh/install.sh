@@ -1,4 +1,8 @@
 for file in ./custom/themes/*
     do
-        ln -s $(readlink -f ${file}) ~/.oh-my-zsh/custom/themes/$(basename ${file})
+        ln -s $(readlink -f ${file}) ~/.oh-my-zsh/custom/themes/$(basename ${file});
+
+        git clone https://github.com/zsh-users/zsh-autosuggestions ${ZSH_CUSTOM:-~/.oh-my-zsh/custom}/plugins/zsh-autosuggestions;
+
+        git clone https://github.com/zsh-users/zsh-syntax-highlighting.git ${ZSH_CUSTOM:-~/.oh-my-zsh/custom}/plugins/zsh-syntax-highlighting;
     done
